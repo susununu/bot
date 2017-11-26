@@ -278,12 +278,12 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots = [" u5068fff4398601a4b5fa1c9876ea170c ",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-self = [" u5068fff4398601a4b5fa1c9876ea170c ",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-admin = "u5068fff4398601a4b5fa1c9876ea170c"
-owner = "u5068fff4398601a4b5fa1c9876ea170c"
-admsa = "u5068fff4398601a4b5fa1c9876ea170c"
-adminMID = "u5068fff4398601a4b5fa1c9876ea170c"
+Bots = [" u4b35779f5ee135517746ffc8bc6c772c ",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+self = [" u4b35779f5ee135517746ffc8bc6c772c ",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+admin = " u4b35779f5ee135517746ffc8bc6c772c "
+owner = " u4b35779f5ee135517746ffc8bc6c772c "
+admsa = " u4b35779f5ee135517746ffc8bc6c772c "
+adminMID = "u4b35779f5ee135517746ffc8bc6c772c"
 wait = {
     'contact':False,
     'autoJoin':False,
