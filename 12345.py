@@ -7,7 +7,7 @@ import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE()
-cl.login(token="EnHPVfTillxHYe69lzgc.sZv3N17Hnvf3rV+iVgX3la.xzRM6TUeLBGHmtloSlTGIpPjzCnKc330HGZJkREF7g4=")
+cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE()
