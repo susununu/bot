@@ -6,59 +6,59 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EnZYX38RuPyhbN86hbrc.ugJ+9dMgaAs1/HYyDUOxda.mnMOexWusXKQl2Ktxa7M9NX4VWId9pPJmoeuXd9cHJk=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="
+ki.login(qr=True)
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="
+kk.login(qr=True)
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="
+kc.login(qr=True)
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="
+kd.login(qr=True)
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="
+ke.login(qr=True)
 ke.loginResult()
 
 kf = LINETCR.LINE()
-kf.login(token="
+kf.login(qr=True)
 kf.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(token=
+kg.login(qr=True)
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(token="
+kh.login(qr=True)
 kh.loginResult()
 
 kj = LINETCR.LINE()
-kj.login(token=
+kj.login(qr=True)
 kj.loginResult()
 
 kl = LINETCR.LINE()
-kl.login(token="
+kl.login(qr=True)
 kl.loginResult()
 
 km = LINETCR.LINE()
-km.login(token="
+km.login(qr=True)
 km.loginResult()
 
 kn = LINETCR.LINE()
-kn.login(token="EnZDUg5DvvayMMi8gJv6.yBVBTPsh6djJxYEgfejy1G.Ud0hVhzXJ9cheAUzFEqF7NLfvfyAoDHgXmrCVXztxDo=")
+kn.login(qr=True)
 kn.loginResult()
 
 ko = LINETCR.LINE()
-ko.login(token="EnC38ZGeAcP4PLCWWx52.rm2ylLXzJpoyheGEx9PgmG.iFhJ0UeAvr8gIAbFmVhoLn2OVs/WWOm21nEGeJ25s3w=")
+ko.login(qr=True)
 ko.loginResult()
 
 kp = LINETCR.LINE()
@@ -85,7 +85,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage =""" ====[ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์]====
 
-                🇹🇭〖👇คำสั่งทั้วหมด👇〗🇹🇭
+                🇹🇭〖👇คำสั่งทั้งหมด👇〗🇹🇭
 
 ❂͜͡☆➣ Me
 ❂͜͡☆➣ Id
