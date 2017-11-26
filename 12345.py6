@@ -10,7 +10,7 @@ cl.login(token="EnENZFESE1TdP9fH8iSc.ugJ+9dMgaAs1/HYyDUOxda.vMuQEcL3Au6psRVxjWub
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(qr=True)
+ki.login(token="EnLJxoIceYWmUBhJGkP9.L0CN4ReK3/p1QbUxYCxXMq.JQeDAbE5JdL8s8Vzu5a+2dj59hpJZl8jYvPB9aHKQKs=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
@@ -66,19 +66,19 @@ kp.login(token="EnCcpN89014Lo8CZG4n3.CfLM7oCD/graisYu1exZmW.tSnoR/orW1y1zmRJ0bUU
 kp.loginResult()
 
 kq = LINETCR.LINE()
-kq.login(qr=True)
+kq.login(token="EnF8tB0UzyvjoOOM5fhb.Z/boAPuD2325BkrIchCvcW.pdMIxD8Z0JpoWDN3gtjrnTMGrlV8GJk9EUA5aA7CFPQ=")
 kq.loginResult()
 
 kr = LINETCR.LINE()
-kr.login(qr=True)
+kr.login(token="EnVrhrnNEP9xdqKDIJrb.gNw0+DStJyBvH0JDmorTAW.sX1p1yisEs+KOWQKbJT7fQQOhQgmwdieA6N5NQHOG48=")
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(qr=True)
+ks.login(token="EnDf8FkKkE5kRIgDmkTd.hM/fLjI2DVtaLJIwUVv4pq.VuZsw9mZiFyVfBT/glbgzZdMOLmau+BN1Yg+jRSlYYM=")
 ks.loginResult()
 
 kt = LINETCR.LINE()
-kt.login(qr=True)
+kt.login(token="Eni2Fq3UFdrGTIP3NZ22.gvsN9oyonfqt2qQM8Gf/KG.+EQSxPMz4yY2Rn15lWSYfln7MJqUxW4DCytM9k5dRdw=")
 kt.loginResult()
 print "login success"
 reload(sys)
