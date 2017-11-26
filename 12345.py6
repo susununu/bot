@@ -46,7 +46,7 @@ kj.login(token="EnSubWhTnfKoeO2Lkaw8.8dn1/XO+lm5j1UydamMhsa.nSF5PrHUDc1YJHa3UmQp
 kj.loginResult()
 
 kl = LINETCR.LINE()
-kl.login(token="EnJXDwqFGnq5APkfPdz6.cOUlaN4Ae9en1tL1q3RC5G.w8GTcpGxy2bdvt4v8XxnHGwoqLt/fy3VW+wm5s3Xmko=
+kl.login(token="EnJXDwqFGnq5APkfPdz6.cOUlaN4Ae9en1tL1q3RC5G.w8GTcpGxy2bdvt4v8XxnHGwoqLt/fy3VW+wm5s3Xmko=")
 kl.loginResult()
 
 km = LINETCR.LINE()
