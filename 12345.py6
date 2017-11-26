@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="EnZYX38RuPyhbN86hbrc.ugJ+9dMgaAs1/HYyDUOxda.mnMOexWusXKQl2Ktxa7M9NX4VWId9pPJmoeuXd9cHJk=")
+cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE()
@@ -62,23 +62,23 @@ ko.login(qr=True)
 ko.loginResult()
 
 kp = LINETCR.LINE()
-kp.login(token="EmS1Hj6dGZ6cmtdcZItc.sZv3N17Hnvf3rV+iVgX3la.2643jQuYbz5C1dgZ9a7iDI0ViyP5gsXfiGEpydChXWg=")
+kp.login(qr=True)
 kp.loginResult()
 
 kq = LINETCR.LINE()
-kq.login(token="EmTDEIC1aJzqp8vzgbId.WhaXXUtVTTGNCzAQZKoahq.O1cq++v6eOrgINr9mlYuQlSP16WQ1tSiNggI3vbqGIs=")
+kq.lgoin(qr=True)
 kq.loginResult()
 
 kr = LINETCR.LINE()
-kr.login(token="EmKLtcKPfJWLMXdovCX0.J+CcBoFrJAH0a2V2NbmW0a.cawl3+YskNvEscQkqlJ6gdKF/8PdwQ2SxztsJOfESlM=")
+kr.login(qr=True)
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="Em6ssEpFOovGMKfvGs58.CvfDE0xmrO8VQJ0W/N/iMa.mV4cn4B3WMGsfqHkAafg9P5CHZ4uHgAaGHdjRtPxVvM=")
+ks.login(qr=True)
 ks.loginResult()
 
 kt = LINETCR.LINE()
-kt.login(token="EmtPvm7HnK0Weu7C26f4.h+7LUlIDiBHqDaKNxldQza.iqP0myOWnxmAFR3pylds2HRyGhGsbDeE8EHWroMAq+Y=")
+kt.login(qr=True)
 kt.loginResult()
 print "login success"
 reload(sys)
