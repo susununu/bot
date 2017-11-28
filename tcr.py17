@@ -2206,8 +2206,9 @@ def bot(op):
                 print "[Command]Speed palsu executed"
 #=============================================
             elif "#ขาย" in msg.text:
-                cl.sendText(msg.to,"""[SELFBOT PHET HACK BOT]\n\n		
-Phet Tema Hack Bot
+                cl.sendText(msg.to,"""[Selfbot Susu]\n\n		
+🇹🇭 ─•✵꧁☢☠ℓℓஆՁՃิ☠☡꧂✵•─ 🇹🇭
+
 🇹🇭  รับทำ Self ℬ❍Ŧ🇹🇭 
 
 🇹🇭🏁  Self  Server premium👉 ฝีมือคนไทย
