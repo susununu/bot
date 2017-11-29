@@ -104,8 +104,6 @@ kimid = kk.getProfile().mid
 ki2mid = ks.getProfile().mid
 Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
-Fmid = ko.getProfile().mid
-Gmid = kj.getProfile().mid
 
 Bots=[mid,Amid,kimid,ki2mid,Cmid,Emid,Fmid,Gmid]
 admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
@@ -117,8 +115,6 @@ kicker2 = kk.getProfile().mid
 kicker3 = ks.getProfile().mid
 kicker4 = kc.getProfile().mid
 kicker5 = ka.getProfile().mid
-kicker6 = ko.getProfile().mid
-kicker7 = kj.getProfile().mid
 bots = me + kicker1
 protectname = []
 protecturl = []
