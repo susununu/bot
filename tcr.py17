@@ -2292,7 +2292,7 @@ http://line.me/ti/p/ShgslAPyYS  ► ป๋านุ
 """)
 
 #==================================================
-          elif "K." in msg.text:
+            elif "K." in msg.text:
                   X = cl.getGroup(msg.to)                    
                   X.preventJoinByTicket = False
                   cl.updateGroup(X)
