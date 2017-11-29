@@ -1459,7 +1459,7 @@ def bot(op):
 				kj.sendText(msg.to,"7")	
 				time.sleep(0.00)
 #-----------------------------------------------------------         
-               elif "!!Phet!!" in msg.text:
+            elif "!!Phet!!" in msg.text:
                 if msg.toType == 2:
                     print "ok"
                     _name = msg.text.replace("!!Phet!!","")
