@@ -2292,7 +2292,30 @@ http://line.me/ti/p/ShgslAPyYS  ► ป๋านุ
 """)
 
 #==================================================
-          
+          elif "K." in msg.text:
+                  X = cl.getGroup(msg.to)                    
+                  X.preventJoinByTicket = False
+                  cl.updateGroup(X)
+                  invsend = 0 
+                  Ti = cl.reissueGroupTicket(msg.to)
+                  ki.acceptGroupInvitationByTicket(msg.to,Ti)
+		  time.sleep(0.01)
+                  kk.acceptGroupInvitationByTicket(msg.to,Ti)
+		  time.sleep(0.01)
+                  ks.acceptGroupInvitationByTicket(msg.to,Ti)
+		  time.sleep(0.01)
+                  kc.acceptGroupInvitationByTicket(msg.to,Ti)
+		  time.sleep(0.01)
+                  ka.acceptGroupInvitationByTicket(msg.to,Ti)
+		  time.sleep(0.01)
+		  ko.acceptGroupInvitationByTicket(msg.to,Ti)
+		  time.sleep(0.01)
+		  kj.acceptGroupInvitationByTicket(msg.to,Ti)
+		  time.sleep(0.01)
+                  G = cl.getGroup(msg.to)
+                  G.preventJoinByTicket = True
+                  cl.updateGroup(G)
+                  Ticket = cl.reissueGroupTicket(msg.to)
 #=============================================
             elif "Hack4" in msg.text:
                 key = eval(msg.contentMetadata["MENTION"])
