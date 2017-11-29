@@ -105,7 +105,7 @@ ki2mid = ks.getProfile().mid
 Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
 
-Bots=[mid,Amid,kimid,ki2mid,Cmid,Emid,Fmid,Gmid]
+Bots=[mid,Amid,kimid,ki2mid,Cmid,Emid]
 admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
