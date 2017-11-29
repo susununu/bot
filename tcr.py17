@@ -1274,30 +1274,31 @@ def bot(op):
                     msg.text = txt
                     msg.contentMetadata = {u'MENTION':json.dumps({"MENTIONEES":d})}
                     cl.sendMessage(msg) 
-            elif "K." in msg.text:
+            elif msg.text in ["N."]:
                   X = cl.getGroup(msg.to)                    
                   X.preventJoinByTicket = False
                   cl.updateGroup(X)
                   invsend = 0 
                   Ti = cl.reissueGroupTicket(msg.to)
                   ki.acceptGroupInvitationByTicket(msg.to,Ti)
-		  time.sleep(0.01)
+                  time.sleep(0.00)
                   kk.acceptGroupInvitationByTicket(msg.to,Ti)
-		  time.sleep(0.01)
+                  time.sleep(0.00)
                   ks.acceptGroupInvitationByTicket(msg.to,Ti)
-		  time.sleep(0.01)
+                  time.sleep(0.00)
                   kc.acceptGroupInvitationByTicket(msg.to,Ti)
-		  time.sleep(0.01)
+                  time.sleep(0.00)
                   ka.acceptGroupInvitationByTicket(msg.to,Ti)
-		  time.sleep(0.01)
-		  ko.acceptGroupInvitationByTicket(msg.to,Ti)
-		  time.sleep(0.01)
-		  kj.acceptGroupInvitationByTicket(msg.to,Ti)
-		  time.sleep(0.01)
-                  G = cl.getGroup(msg.to)
+                  time.sleep(0.00)
+                  ko.acceptGroupInvitationByTicket(msg.to,Ti)
+                  time.sleep(0.00)
+                  kj.acceptGroupInvitationByTicket(msg.to,Ti)
+                  time.sleep(0.00)                  
+                  G = kj.getGroup(msg.to)
                   G.preventJoinByTicket = True
-                  cl.updateGroup(G)
-                  Ticket = cl.reissueGroupTicket(msg.to)
+                  kj.updateGroup(G)
+                  print "Algojo_Ready,!"
+                  Ticket = kj.reissueGroupTicket(msg.to)
             elif msg.text in ["K1 join"]:
                   X = cl.getGroup(msg.to)                    
                   X.preventJoinByTicket = False
@@ -1387,19 +1388,19 @@ def bot(op):
                    X = cl.getGroup(msg.to)
                 try:			
 					ki.leaveGroup(msg.to)
-					time.sleep(0.01)
+					time.sleep(0.00)
 					kk.leaveGroup(msg.to)
-					time.sleep(0.01)
+					time.sleep(0.00)
 					ks.leaveGroup(msg.to)
-					time.sleep(0.01)
+					time.sleep(0.00)
 					kc.leaveGroup(msg.to)
-					time.sleep(0.01)
+					time.sleep(0.00)
 					ka.leaveGroup(msg.to)
-					time.sleep(0.01)
+					time.sleep(0.00)
 					ko.leaveGroup(msg.to)
-					time.sleep(0.01)
+					time.sleep(0.00)
 					kj.leaveGroup(msg.to)
-					time.sleep(0.01)					
+					time.sleep(0.00)					
                 except:
                      pass            
             #---------------FUNGSI RATAIN GRUP TANPA KICK SESAMA BOT/Admin/Bots----------#
@@ -1409,19 +1410,19 @@ def bot(op):
                     print "ok"
                     _name = msg.text.replace("Destroy","")
                     gs = ki.getGroup(msg.to)
-		    time.sleep(0.01)
+		    time.sleep(0.00)
                     gs = kk.getGroup(msg.to)
-		    time.sleep(0.01)
+		    time.sleep(0.00)
                     gs = kc.getGroup(msg.to)
-		    time.sleep(0.01)
+		    time.sleep(0.00)
                     ki.sendText(msg.to,"🔸ƜЄ ƇƠMЄ ƬƠ ƊЄƧƬƦƠƳ ƳƠƲƦ ƓƦƠƲƤ🔸")
-		    time.sleep(0.01)
+		    time.sleep(0.00)
                     kk.sendText(msg.to,"ƦЄԼƛҲ ƧԼƠƜ ƧԼƠƜ ƝƠ ƁƛƤЄƦ...😂😂")
-		    time.sleep(0.01)
+		    time.sleep(0.00)
                     kc.sendText(msg.to,"ƘЄƝƛƤƛ ƊƖЄM ƛʆƛ...?")
-		    time.sleep(0.01)
+		    time.sleep(0.00)
                     ks.sendText(msg.to,"ƬƛƝƓƘƖƧ ƁЄƓƠ ʆƛƝƓƛƝ ƓЄMЄƬЄƦ...😂😂")
-		    time.sleep(0.01)
+		    time.sleep(0.00)
                     msg.contentType = 13
                     msg.contentMetadata = {'mid': mid}
                     ks.sendMessage(msg)
@@ -1436,27 +1437,27 @@ def bot(op):
                           if target not in Bots:
                             try:
                                 klist=[ki,kk,kc,ks,ka,ko,kj]
-				time.sleep(0.01)
+				time.sleep(0.00)
                                 kicker=random.choice(klist)
-				time.sleep(0.01)
+				time.sleep(0.00)
                                 kicker.kickoutFromGroup(msg.to,[target])
-				time.sleep(0.01)
+				time.sleep(0.00)
                                 print (msg.to,[g.mid])
                             except:
                                 ki.sendText(msg.to,"1")
-				time.sleep(0.01)
+				time.sleep(0.00)
                                 kk.sendText(msg.to,"2")
-				time.sleep(0.01)
+				time.sleep(0.00)
                                 kc.sendText(msg.to,"3")
-				time.sleep(0.01)
+				time.sleep(0.00)
                                 ks.sendText(msg.to,"4")
-				time.sleep(0.01)
+				time.sleep(0.00)
                                 ka.sendText(msg.to,"5")
-				time.sleep(0.01)
+				time.sleep(0.00)
                                 ko.sendText(msg.to,"6")
-				time.sleep(0.01)
+				time.sleep(0.00)
 				kj.sendText(msg.to,"7")	
-				time.sleep(0.01)
+				time.sleep(0.00)
 #-----------------------------------------------------------                          
             elif "Kick" in msg.text:
                 if msg.contentMetadata is not None:
@@ -1468,14 +1469,14 @@ def bot(op):
                     for target in targets:
                         try:
                             cl.kickoutFromGroup(msg.to,[target])
-			    time.sleep(0.01)
+			    time.sleep(0.00)
                         except:
                             cl.kickoutFromGroup(msg.to,[target])
-			    time.sleep(0.01)
+			    time.sleep(0.00)
 			    ki.kickoutFromGroup(msg.to,[target])
-			    time.sleep(0.01)
+			    time.sleep(0.00)
 			    kk.kickoutFromGroup(msg.to,[target])
-			    time.sleep(0.01)
+			    time.sleep(0.00)
 			    ks.kickoutFromGroup(msg.to,[target])			    
                     else:
                         pass
