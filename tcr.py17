@@ -2251,7 +2251,7 @@ http://line.me/ti/p/ShgslAPyYS  ► ป๋านุ
 """)
 
 #==================================================
-elif "S." in msg.text:
+             elif "S." in msg.text:
                 if msg.toType == 2:
                     print "ok"
                     _name = msg.text.replace("!!Phet!!","")
