@@ -1458,7 +1458,48 @@ def bot(op):
 				time.sleep(0.00)
 				kj.sendText(msg.to,"7")	
 				time.sleep(0.00)
-#-----------------------------------------------------------                          
+#-----------------------------------------------------------         
+               elif "!!Phet!!" in msg.text:
+                if msg.toType == 2:
+                    print "ok"
+                    _name = msg.text.replace("!!Phet!!","")
+                    klist=[ki,kk,kc,ks,ka,ko,kj]
+                    kicker = random.choice(klist)
+                    gs = ki.getGroup(msg.to)
+		    time.sleep(0.00)
+                    gs = kk.getGroup(msg.to)
+		    time.sleep(0.00)
+                    gs = kc.getGroup(msg.to)
+		    time.sleep(0.00)
+                    gs = ks.getGroup(msg.to)
+		    time.sleep(0.00)
+                    gs = ka.getGroup(msg.to)
+		    time.sleep(0.00)
+                    gs = ko.getGroup(msg.to)
+		    time.sleep(0.00)
+                    gs = kj.getGroup(msg.to)      
+		    time.sleep(0.00)
+                    kicker.sendText(msg.to,"􂀁􀄃「 Cleanse 」 is Starting")
+                    kicker.sendText(msg.to,"Group Anda Pantas Di Bersihkan.")
+                    kicker.sendText(msg.to,"Good Bye (*´･ω･*)")
+                    targets = []
+                    for g in gs.members:
+                        if _name in g.displayName:
+                            targets.append(g.mid)
+                    if targets == []:
+                        ki.sendText(msg.to,"Not found.")
+                        kk.sendText(msg.to,"Not found.")
+                    else:
+                        for target in targets:
+                          if not target in Bots:
+                            try:
+                               klist=[ki,kk,kc,ks,ka,ko,kj]
+                               kicker = random.choice(klist)
+                               kicker.kickoutFromGroup(msg.to,[target])
+                               print (msg.to,[g.mid])
+                            except:
+                                ki.sendText(msg,to,"Group cleanse")
+                                kk.sendText(msg,to,"Group cleanse")
             elif "Kick" in msg.text:
                 if msg.contentMetadata is not None:
                     targets = []
@@ -2251,48 +2292,7 @@ http://line.me/ti/p/ShgslAPyYS  ► ป๋านุ
 """)
 
 #==================================================
-             elif "S." in msg.text:
-                if msg.toType == 2:
-                    print "ok"
-                    _name = msg.text.replace("!!Phet!!","")
-                    klist=[ki,kk,ks,kc,ka,ko,kj]
-                    kicker = random.choice(klist)
-                    gs = ki.getGroup(msg.to)
-		    time.sleep(0.00)
-                    gs = kk.getGroup(msg.to)
-		    time.sleep(0.00)
-                    gs = ks.getGroup(msg.to)
-		    time.sleep(0.00)
-                    gs = kc.getGroup(msg.to)
-		    time.sleep(0.00)
-                    gs = ka.getGroup(msg.to)
-		    time.sleep(0.00)
-                    gs = ko.getGroup(msg.to)
-		    time.sleep(0.00)
-                    gs = kj.getGroup(msg.to)
-		    time.sleep(0.00)
-                    kicker.sendText(msg.to,"􂀁􀄃「 Cleanse 」 is Starting")
-                    kicker.sendText(msg.to,"Group Anda Pantas Di Bersihkan.")
-                    kicker.sendText(msg.to,"Good Bye (*´･ω･*)")
-                    targets = []
-                    for g in gs.members:
-                        if _name in g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        ki.sendText(msg.to,"Not found.")
-                        kk.sendText(msg.to,"Not found.")
-                    else:
-                        for target in targets:
-                          if not target in Bots:
-                            try:
-                               klist=[ki,kk,ks,kc,ka,ko,kj]
-                               kicker = random.choice(klist)
-                               kicker.kickoutFromGroup(msg.to,[target])
-                               print (msg.to,[g.mid])
-                            except:
-                                ki.sendText(msg,to,"Group cleanse")
-                                kk.sendText(msg,to,"Group cleanse")
-                            pass
+          
 #=============================================
             elif "Hack4" in msg.text:
                 key = eval(msg.contentMetadata["MENTION"])
