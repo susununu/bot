@@ -92,7 +92,7 @@ helpMessage2 ="""-💕™ -
 🍎[ƁԼƠƇƘƖƝƔƖƬЄ: ƠƝ/ƠƑƑ]:  
 	
 """
-KAC = [cl,ki,kk,ks,kc,ka,ko,kj]
+KAC = [cl,ki,kk,ks,kc,ka]
 KAB1 = ki.getProfile().mid
 KAB2 = kk.getProfile().mid
 KAB3 = ks.getProfile().mid
