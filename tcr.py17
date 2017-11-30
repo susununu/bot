@@ -407,7 +407,7 @@ def bot(op):
 		if op.type == 32:
 			if mid in op.param3:
 				if wait["blacklist"] == True:
-					cl.kickoutFromGroup(op.param1,[op.param2])
+					cl.kickoutFromGroup(op.param1,[op.param2])					
 					ki.kickoutFromGroup(op.param1,[op.param2])
 					kk.kickoutFromGroup(op.param1,[op.param2])
 					ks.kickoutFromGroup(op.param1,[op.param2])
@@ -442,13 +442,21 @@ def bot(op):
 					group.preventJoinByTicket = True
 					cl.updateGroup(group)
 					cl.sendText(op.param1,"URL can not be changed")
+					time.sleep(0.00)
 					ki.kickoutFromGroup(op.param1,[op.param2])
+					time.sleep(0.00)
 					kk.kickoutFromGroup(op.param1,[op.param2])
+					time.sleep(0.00)
 					ks.kickoutFromGroup(op.param1,[op.param2])
+					time.sleep(0.00)
 					kc.kickoutFromGroup(op.param1,[op.param2])
+					time.sleep(0.00)
 					ka.kickoutFromGroup(op.param1,[op.param2])
+					time.sleep(0.00)
 					ko.kickoutFromGroup(op.param1,[op.param2])
+					time.sleep(0.00)
 					kj.kickoutFromGroup(op.param1,[op.param2])
+					time.sleep(0.00)
 					wait["blacklist"][op.param2] = True
 					f=codecs.open('st2__b.json','w','utf-8')
 					json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
@@ -480,13 +488,21 @@ def bot(op):
 			    X = kj.getGroup(list_[1])
                             X.preventJoinByTicket = True
                             cl.updateGroup(X)
+			    time.sleep(0.00)
                             ki.updateGroup(X)
+			    time.sleep(0.00)
                             kk.updateGroup(X)
+			    time.sleep(0.00)
                             ks.updateGroup(X)
+			    time.sleep(0.00)
 			    kc.updateGroup(X)
+			    time.sleep(0.00)
 			    ka.updateGroup(X)
+			    time.sleep(0.00)
 			    ko.updateGroup(X)
+			    time.sleep(0.00)
 			    kj.updateGroup(X)
+			    time.sleep(0.00)
                         except:
                             cl.sendText(msg.to,"error")
             if msg.toType == 1:
@@ -781,9 +797,9 @@ def bot(op):
                 ##cl.sendMessage(msg)
             elif msg.text in ["Block url:on"]:
                 protecturl.append(msg.to)
-                cl.sendText(msg.to,"🛡️ ป้องกันลิ้งค์ ✔️OK ป้องกัน")
-		ki.sendText(msg.to,"🛡️ ป้องกันลิ้งค์ ✔️OK")
-		kk.sendText(msg.to,"🛡️ ป้องกันลิ้งค์ ✔️OK")
+                cl.sendText(msg.to,"🛡️ ป้องกันลิ้งค์ ✔️OK ป้องกัน")		
+		ki.sendText(msg.to,"🛡️ ป้องกันลิ้งค์ ✔️OK")		
+		kk.sendText(msg.to,"🛡️ ป้องกันลิ้งค์ ✔️OK")		
 		ks.sendText(msg.to,"🛡️ ป้องกันลิ้งค์ ✔️OK")
 		kc.sendText(msg.to,"🛡️ ป้องกันลิ้งค์ ✔️OK")
 		ka.sendText(msg.to,"🛡️ ป้องกันลิ้งค์ ✔️OK")
@@ -1293,7 +1309,8 @@ def bot(op):
                   ko.acceptGroupInvitationByTicket(msg.to,Ti)
                   time.sleep(0.00)
                   kj.acceptGroupInvitationByTicket(msg.to,Ti)
-                  time.sleep(0.00)                  
+                  time.sleep(0.00)        
+		  ki.sendText(msg.to,"Hello " + str(ginfo.name) + "\n\n[✟꧁۞ℓℓஆՁゆຸ۞꧂ ยินดีต้อนรับเข้าสู่ห้องว่าง]")                      
                   G = kj.getGroup(msg.to)
                   G.preventJoinByTicket = True
                   kj.updateGroup(G)
@@ -1387,7 +1404,9 @@ def bot(op):
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
                 try:			
-					ki.leaveGroup(msg.to)
+		
+					ki.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย 🖐️]")
+                                        ki.leaveGroup(msg.to)
 					time.sleep(0.00)
 					kk.leaveGroup(msg.to)
 					time.sleep(0.00)
@@ -2327,6 +2346,30 @@ http://line.me/ti/p/ShgslAPyYS  ► ป๋านุ
                 except:
                     cl.sendText(msg.to,"[name]\n" + contact.displayName + "\n[mid]\n" + contact.mid + "\n[statusmessage]\n" + contact.statusMessage + "\n[homePicture]\n" + str(cu))
 #=============================================
+            elif msg.text in ["Backup:on","Backup on","เปิดการเชิญกลับ"]:
+                if wait["Backup"] == True:
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"Sudah on Bos\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                    else:
+                        cl.sendText(msg.to,"Backup On\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                else:
+                    wait["Backup"] = True
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"Backup On\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                    else:
+                        cl.sendText(msg.to,"Sudah on Bos\n\n"+ datetime.today().strftime('%H:%M:%S'))
+            elif msg.text in ["Backup:off","Backup off","ปิดการเชิญกลับ"]:
+                if wait["Backup"] == False:
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"Sudah off Bos\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                    else:
+                        cl.sendText(msg.to,"Backup Off\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                else:
+                    wait["Backup"] = False
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"Backup Off\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                    else:
+                        cl.sendText(msg.to,"Sudah off Bos\n\n"+ datetime.today().strftime('%H:%M:%S'))
 #========================================
             elif "Hack3 @" in msg.text:            
                 print "[Command]dp executing"
