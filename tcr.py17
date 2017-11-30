@@ -1309,8 +1309,7 @@ def bot(op):
                   ko.acceptGroupInvitationByTicket(msg.to,Ti)
                   time.sleep(0.00)
                   kj.acceptGroupInvitationByTicket(msg.to,Ti)
-                  time.sleep(0.00)        
-		  ki.sendText(msg.to,"Hello " + str(ginfo.name) + "\n\n[✟꧁۞ℓℓஆՁゆຸ۞꧂ ยินดีต้อนรับเข้าสู่ห้องว่าง]")                      
+                  time.sleep(0.00)        		                     
                   G = kj.getGroup(msg.to)
                   G.preventJoinByTicket = True
                   kj.updateGroup(G)
@@ -2263,21 +2262,7 @@ def bot(op):
 		ko.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 kj.sendText(msg.to, "%sseconds" % (elapsed_time))
                 print "[Command]Speed palsu executed"
-#=============================================
-            elif msg.text.lower() == 'Bye':
-                if msg.toType == 2:
-                    ginfo = cl.getGroup(msg.to)
-                    try:
-                        ki.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย ]")
-                        ki.leaveGroup(msg.to)                        
-                        kk.leaveGroup(msg.to)                       
-                        ks.leaveGroup(msg.to)                       
-                        kc.leaveGroup(msg.to)                       
-                        ka.leaveGroup(msg.to)                        
-                        ko.leaveGroup(msg.to)                      
-			kj.leaveGroup(msg.to)                       
-                    except:
-                        pass
+#=============================================            
 			
             elif "#ขาย" in msg.text:
                 cl.sendText(msg.to,"""[Selfbot Susu]\n\n		
