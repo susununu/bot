@@ -14,11 +14,7 @@ cl.loginResult()
 
 ki = LINETCR.LINE()
 ki.login(qr=True)
-cl.loginResult()
-
-kk = LINETCR.LINE()
-kk.login(qr=True)
-cl.loginResult()
+ki.loginResult()
 
 print "login success"
 reload(sys)
@@ -87,20 +83,17 @@ helpMessage2 ="""-💕™ -
 🇹🇭[ƁԼƠƇƘƖƝƔƖƬЄ: ƠƝ/ƠƑƑ]:  
 	
 """
-KAC = [cl,ki,kk]
+KAC = [cl,ki]
 KAB1 = ki.getProfile().mid
-KAB2 = kk.getProfile().mid
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
-kimid = kk.getProfile().mid
 
-Bots=[mid,Amid,kimid]
+Bots=[mid,Amid]
 admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
 main = cl.getProfile().mid
 kicker1 = ki.getProfile().mid
-kicker2 = kk.getProfile().mid
 bots = me + kicker1
 protectname = []
 protecturl = []
@@ -179,12 +172,6 @@ mybackup.pictureStatus = contact.pictureStatus
 
 contact = ki.getProfile()
 backup = ki.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = kk.getProfile()
-backup = kk.getProfile()
 backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
