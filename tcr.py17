@@ -2264,7 +2264,7 @@ def bot(op):
                 kj.sendText(msg.to, "%sseconds" % (elapsed_time))
                 print "[Command]Speed palsu executed"
 #=============================================
-           elif msg.text.lower() == 'Bye':
+            elif msg.text.lower() == 'Bye':
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
