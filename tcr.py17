@@ -1403,8 +1403,7 @@ def bot(op):
             elif msg.text in ["y."]:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
-                try:					
-					ki.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย 🖐️]")
+                try:										
                                         ki.leaveGroup(msg.to)
 					time.sleep(0.00)
 					kk.leaveGroup(msg.to)
@@ -1517,7 +1516,7 @@ def bot(op):
                                print (msg.to,[g.mid])
                             except:
                                 ki.sendText(msg,to,"Group cleanse")
-                                kk.sendText(msg,to,"Group cleanse")
+				kk.sendText(msg,to,"Group cleanse")				
             elif "Kick" in msg.text:
                 if msg.contentMetadata is not None:
                     targets = []
@@ -2265,6 +2264,21 @@ def bot(op):
                 kj.sendText(msg.to, "%sseconds" % (elapsed_time))
                 print "[Command]Speed palsu executed"
 #=============================================
+           elif msg.text.lower() == 'Bye':
+                if msg.toType == 2:
+                    ginfo = cl.getGroup(msg.to)
+                    try:
+                        ki.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย ]")
+                        ki.leaveGroup(msg.to)                        
+                        kk.leaveGroup(msg.to)                       
+                        ks.leaveGroup(msg.to)                       
+                        kc.leaveGroup(msg.to)                       
+                        ka.leaveGroup(msg.to)                        
+                        ko.leaveGroup(msg.to)                      
+			kj.leaveGroup(msg.to)                       
+                    except:
+                        pass
+			
             elif "#ขาย" in msg.text:
                 cl.sendText(msg.to,"""[Selfbot Susu]\n\n		
 🇹🇭 Selfbot By.Susu bot 🇹🇭
