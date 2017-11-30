@@ -9,15 +9,15 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token=" EnaxyenzhMWM723e5aue.DeD7yN6/tVC1Ey8lR8IrtG.tu0rXkQMfEdfAArbK8ndt8TNgCrKl77F6t8dboxP6sQ= ")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(qr=True)
+ki.login(token=" EnluCIOTu6qcc4sKxho5.DeF0qcLo4riXM+Bf3LKX1q.5+ASheES8vipO0gdcHI9hn452W3kkfMV3EvDQIKnMTc= ")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(qr=True)
+kk.login(token=" EnS8kFoU4C5ud0oErria.g+c9cebCcdozxubTLGXowG.2IE8Y3LYrdUH0PhN3C8cSzBiGwZEtFXP7kPw/qV2VDs= ")
 kk.loginResult()
 
 print "login success"
@@ -1261,9 +1261,9 @@ def bot(op):
                   time.sleep(0.00)
                   kj.acceptGroupInvitationByTicket(msg.to,Ti)
                   time.sleep(0.00)        		                     
-                  G = kj.getGroup(msg.to)
+                  G = kk.getGroup(msg.to)
                   G.preventJoinByTicket = True
-                  kj.updateGroup(G)
+                  kk.updateGroup(G)
                   print "Algojo_Ready,!"
                   Ticket = kj.reissueGroupTicket(msg.to)
             elif msg.text in ["K1 join"]:
