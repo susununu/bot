@@ -9,71 +9,81 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EnRC49Z3mewgjMAUgsob.lh9WH2MI6ZxzRP9ZZtzUcW.Ekr9a6h3e5xRi7i8pKFmHXPl4lw3jwEoR+h5FW4biHM=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(qr=True)
-cl.loginResult()
+ki.login(token="EniWLZyg7M2xn7ZWLEi4.Taq4zRpoy8MaIjFbl09Fba.ZvAgOFZEGGWB1pNf6KQuYdtWXhbz+ahXwvqVNIS38I4=")
 
 kk = LINETCR.LINE()
-kk.login(qr=True)
-cl.loginResult()
+kk.login(token="En6JnQYmSbud2UhirOB9.m+QWcDCzbafjVosqZ/m5kq.V8ZxtADEcZrvKSmOLmtrBtAkRuirBa7E4FYQ5PvQ5WA=")
+
+ks = LINETCR.LINE()
+ks.login(token="EnorFuNfQuWsL7Oao0O2.95DDfpXOzsm0FioN2vCdmG.qfm/65MnINdAiJp1WlrE7znBn5L9csSSWTSXCnryENA=")
+
+kc = LINETCR.LINE()
+kc.login(token="EnnKn17f1WU18KJ9Rp07.0PhcaDg6BmNNypOZPKzWPW.+GJZb3EHRlU1fyH3nsr7VuyimvVVFk2eaNB1D/uJEa4=")
+
+ka = LINETCR.LINE()
+ka.login(token="Endc3mRumZVeSpnJelUf.2Ad+jSMK5L577woncnuh7W.A2a8Q176BBlcqx1B8CsNW9+5IGsDvR4S1ki7LdQ86ZA=")
+
+ko = LINETCR.LINE()
+ko.login(token="EnC38ZGeAcP4PLCWWx52.rm2ylLXzJpoyheGEx9PgmG.iFhJ0UeAvr8gIAbFmVhoLn2OVs/WWOm21nEGeJ25s3w=")
+
+kj = LINETCR.LINE()
+kj.login(token="EnZDUg5DvvayMMi8gJv6.yBVBTPsh6djJxYEgfejy1G.Ud0hVhzXJ9cheAUzFEqF7NLfvfyAoDHgXmrCVXztxDo=")
 
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage ="""🇹🇭〖ŋีಖଏדЮ✫নმ௮₷ণજัゆ۩〗🇹🇭
   
-🍎[Id]: ~÷~
-🍎[Mid]: ~÷~
-🍎[All mid]:
-🍎[Me]: ~÷~
-🍎[K1/K2/K3/]: "Contact"
-🍎[K1/K2/K3 fuck:]: "Kick kicker"
-🍎[Group Id]: "Id Me Group"
-🍎[TL : "Text"]: "Auto status TL"
-🍎[Clock :]: "Name Clock"
-🍎[Up clock]: "Up date Clock"
-🍎[Name : 'text']: "Name me"
-🍎[MIC]: "mid"]: "Contact share"
-🍎[Reject]: " invite"]: "Reject invite"
-🍎[Massage add: "text"]: ~÷~
-🍎[Add confirmasi]: ~÷~
-🍎[Comment set : "Text"]: ~÷~
-🍎[Comment check]: ~÷~
-🍎[Clock: on]: "Clock name on"
-🍎[Clock: off]: "Clock name off"
-🍎[Ban]: "Add blacklist"
-🍎[Unban]: "Dalate blacklist"
-🍎[Banlist]: "Check blacklist"
+🌥️[Id]: ~÷~
+🌧️[Mid]: ~÷~
+🌤️[All mid]:
+🌤️[Me]: ~÷~
+🌨️[K1/K2/K3/]: "Contact"
+⛅[K1/K2/K3 fuck:]: "Kick kicker"
+🌧️[Group Id]: "Id Me Group"
+⛈️[TL : "Text"]: "Auto status TL"
+⛈️[Clock :]: "Name Clock"
+⛈️[Up clock]: "Up date Clock"
+⛈️[Name : 'text']: "Name me"
+⛅[MIC]: "mid"]: "Contact share"
+⛅[Reject]: " invite"]: "Reject invite"
+⛅[Massage add: "text"]: ~÷~
+🌨️[Add confirmasi]: ~÷~
+🌧️[Comment set : "Text"]: ~÷~
+🌧️[Comment check]: ~÷~
+⛅[Clock: on]: "Clock name on"
+☁️[Clock: off]: "Clock name off"
+☁️[Ban]: "Add blacklist"
+☁️[Unban]: "Dalate blacklist"
+☁️[Banlist]: "Check blacklist"
 
--🐧™[ƧЄƬ]:ƇƠMMƛƝƊƧ ƧЄƬ. -
-🍎[Contact: on/off]: 
-🍎[Auto join: on/off]: 
-🍎[Cancel Invite: 1 on/off]:
-🍎[Auto share: on/off]:
-🍎[Auto leave: on/off]: 
-🍎[Comment: on/off]: 
-🍎[Auto add: on/off]: 
-🍎[Auto like: on/off]: 
+-🌠™[ƧЄƬ]:ƇƠMMƛƝƊƧ ƧЄƬ. -
+🌟[Contact: on/off]: 
+🌟[Auto join: on/off]: 
+🌟[Cancel Invite: 1 on/off]:
+🌟[Auto share: on/off]:
+🌟[Auto leave: on/off]: 
+🌟[Comment: on/off]: 
+🌟[Auto add: on/off]: 
+🌟[Auto like: on/off]: 
 	
--🐧™ƇƠMMƛƝƊƧ ƖƝ ƬHЄ ƓƦƠƲƤƧ. ~~~~
-🍎[Ban " @Tag]: 
-🍎[Unban " @Tag]: 
-🍎[Urlon]: "Open urL"
-🍎[Urloff]: "Closed urL"
-🍎[Url]: " Check urL room"
-🍎[Ginfo]: "~÷~ data room"
-🍎[Invite: "mid"]: 
-🍎[Say: "Text"]: "Kicker talk"
-🍎[Cancel]: "Cancel invite"
-🍎[Gn: "name"]: "Change name Group"
-🍎[NK: "Name"]: ~÷~
-🍎[Dead]: "Kick Blacklist"
-🍎[*ทีม] "คำสั่งเรียกคิกเก้อ.ทั้งหมด"
-🍎[y.] คำสั่ง คิกเก้อ.ออกจากห้องทั้งหมด"
-
+-🀄™ƇƠMMƛƝƊƧ ƖƝ ƬHЄ ƓƦƠƲƤƧ. ~~~~
+❄️[Ban " @Tag]: 
+❄️[Unban " @Tag]: 
+❄️[Urlon]: "Open urL"
+❄️[Urloff]: "Closed urL"
+❄️[Url]: " Check urL room"
+❄️[Ginfo]: "~÷~ data room"
+❄️[Invite: "mid"]: 
+❄️[Say: "Text"]: "Kicker talk"
+❄️[Cancel]: "Cancel invite"
+❄️[Gn: "name"]: "Change name Group"
+❄️[NK: "Name"]: ~÷~
+❄️[Dead]: "Kick Blacklist"
           
 	  ─•✵✟۞ ℓℓஆՁゆຸ۞✵•─ 
 	  🇹🇭 🇹🇭 🇹🇭 🇹🇭 🇹🇭 🇹🇭 🇹🇭 🇹🇭
@@ -87,20 +97,35 @@ helpMessage2 ="""-💕™ -
 🇹🇭[ƁԼƠƇƘƖƝƔƖƬЄ: ƠƝ/ƠƑƑ]:  
 	
 """
-KAC = [cl,ki,kk]
+KAC = [cl,ki,kk,ks,kc,ka,ko,kj]
 KAB1 = ki.getProfile().mid
 KAB2 = kk.getProfile().mid
+KAB3 = ks.getProfile().mid
+KAB4 = kc.getProfile().mid
+KAB5 = ka.getProfile().mid
+KAB6 = ko.getProfile().mid
+KAB7 = kj.getProfile().mid
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 kimid = kk.getProfile().mid
+ki2mid = ks.getProfile().mid
+Cmid = kc.getProfile().mid
+Emid = ka.getProfile().mid
+Fmid = ko.getProfile().mid
+Gmid = kj.getProfile().mid
 
-Bots=[mid,Amid,kimid]
+Bots=[mid,Amid,kimid,ki2mid,Cmid,Emid,Fmid,Gmid]
 admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
 main = cl.getProfile().mid
 kicker1 = ki.getProfile().mid
 kicker2 = kk.getProfile().mid
+kicker3 = ks.getProfile().mid
+kicker4 = kc.getProfile().mid
+kicker5 = ka.getProfile().mid
+kicker6 = ko.getProfile().mid
+kicker7 = kj.getProfile().mid
 bots = me + kicker1
 protectname = []
 protecturl = []
@@ -189,6 +214,30 @@ backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
+contact = ks.getProfile()
+backup = ks.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+contact = kc.getProfile()
+backup = kc.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+contact = ko.getProfile()
+backup = ko.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+contact = kj.getProfile()
+backup = kj.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
 def Cmd(string, commands): #/XXX, >XXX, ;XXX, ^XXX, %XXX, $XXX...
     tex = [""]
     for texX in tex:
@@ -196,7 +245,7 @@ def Cmd(string, commands): #/XXX, >XXX, ;XXX, ^XXX, %XXX, $XXX...
             if string ==texX + command:
                 return True
     return False
-   
+    
 def sendMessage(to, text, contentMetadata={}, contentType=0):
     mes = Message()
     mes.to, mes.from_ = to, profile.mid
