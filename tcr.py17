@@ -1403,8 +1403,7 @@ def bot(op):
             elif msg.text in ["y."]:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
-                try:			
-		
+                try:					
 					ki.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย 🖐️]")
                                         ki.leaveGroup(msg.to)
 					time.sleep(0.00)
