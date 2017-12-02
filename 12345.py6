@@ -2998,7 +2998,7 @@ def bot(op):
                 msgs+="\n\nTotal %i blocked user(s)" % len(kontak)
                 cl.sendText(msg.to, msgs)
 
-            elif msg.text.lower() == '•••':
+            elif msg.text.lower() == 'มาหำ':
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = False
