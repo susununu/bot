@@ -1481,47 +1481,7 @@ def bot(op):
 				time.sleep(0.00)
 				kj.sendText(msg.to,"7")	
 				time.sleep(0.00)
-#-----------------------------------------------------------         
-            elif "*บิน" in msg.text:
-                if msg.toType == 2:
-                    print "ok"
-                    _name = msg.text.replace("*บิน","")
-                    klist=[ki,kk,kc,ks,ka,ko,kj]
-                    kicker = random.choice(klist)
-                    gs = ki.getGroup(msg.to)
-		    time.sleep(0.00)
-                    gs = kk.getGroup(msg.to)
-		    time.sleep(0.00)
-                    gs = kc.getGroup(msg.to)
-		    time.sleep(0.00)
-                    gs = ks.getGroup(msg.to)
-		    time.sleep(0.00)
-                    gs = ka.getGroup(msg.to)
-		    time.sleep(0.00)
-                    gs = ko.getGroup(msg.to)
-		    time.sleep(0.00)
-                    gs = kj.getGroup(msg.to)      
-		    time.sleep(0.00)
-                    kicker.sendText(msg.to,"􂀁􀄃「 Cleanse 」 is Starting")
-                    kicker.sendText(msg.to,"Good Bye (*´･ω･*)")
-                    targets = []
-                    for g in gs.members:
-                        if _name in g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        ki.sendText(msg.to,"Not found.")
-                        kk.sendText(msg.to,"Not found.")
-                    else:
-                        for target in targets:
-                          if not target in Bots:
-                            try:
-                               klist=[ki,kk,kc,ks,ka,ko,kj]
-                               kicker = random.choice(klist)
-                               kicker.kickoutFromGroup(msg.to,[target])
-                               print (msg.to,[g.mid])
-                            except:
-                                ki.sendText(msg,to,"Group cleanse")
-				kk.sendText(msg,to,"Group cleanse")				
+#-----------------------------------------------------------                  				
             elif "Kick" in msg.text:
                 if msg.contentMetadata is not None:
                     targets = []
@@ -1540,7 +1500,16 @@ def bot(op):
 			    time.sleep(0.00)
 			    kk.kickoutFromGroup(msg.to,[target])
 			    time.sleep(0.00)
-			    ks.kickoutFromGroup(msg.to,[target])			    
+			    ks.kickoutFromGroup(msg.to,[target])
+			    time.sleep(0.00)
+			    kc.kickoutFromGroup(msg.to,[target])
+			    time.sleep(0.00)
+			    ka.kickoutFromGroup(msg.to,[target])
+			    time.sleep(0.00)
+			    ko.kickoutFromGroup(msg.to,[target])
+			    time.sleep(0.00)
+			    kj.kickoutFromGroup(msg.to,[target])
+			    time.sleep(0.00)
                     else:
                         pass
             elif "K1 kick" in msg.text:
