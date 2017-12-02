@@ -37,58 +37,57 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage ="""🇹🇭〖ŋีಖଏדЮ✫নმ௮₷ণજัゆ۩〗🇹🇭
   
-🌥️[Id]: ~÷~
-🌧️[Mid]: ~÷~
-🌤️[All mid]:
-🌤️[Me]: ~÷~
-🌨️[K1/K2/K3/]: "Contact"
-⛅[K1/K2/K3 fuck:]: "Kick kicker"
-🌧️[Group Id]: "Id Me Group"
-⛈️[TL : "Text"]: "Auto status TL"
-⛈️[Clock :]: "Name Clock"
-⛈️[Up clock]: "Up date Clock"
-⛈️[Name : 'text']: "Name me"
-⛅[MIC]: "mid"]: "Contact share"
-⛅[Reject]: " invite"]: "Reject invite"
-⛅[Massage add: "text"]: ~÷~
-🌨️[Add confirmasi]: ~÷~
-🌧️[Comment set : "Text"]: ~÷~
-🌧️[Comment check]: ~÷~
-⛅[Clock: on]: "Clock name on"
-☁️[Clock: off]: "Clock name off"
-☁️[Ban]: "Add blacklist"
-☁️[Unban]: "Dalate blacklist"
-☁️[Banlist]: "Check blacklist"
+🍎[Id]: ~÷~
+🍎[Mid]: ~÷~
+🍎[All mid]:
+🍎[Me]: ~÷~
+🍎[K1/K2/K3/]: "Contact"
+🍎[K1/K2/K3 fuck:]: "Kick kicker"
+🍎[Group Id]: "Id Me Group"
+🍎[TL : "Text"]: "Auto status TL"
+🍎[Clock :]: "Name Clock"
+🍎[Up clock]: "Up date Clock"
+🍎[Name : 'text']: "Name me"
+🍎[MIC]: "mid"]: "Contact share"
+🍎[Reject]: " invite"]: "Reject invite"
+🍎[Massage add: "text"]: ~÷~
+🍎[Add confirmasi]: ~÷~
+🍎[Comment set : "Text"]: ~÷~
+🍎[Comment check]: ~÷~
+🍎[Clock: on]: "Clock name on"
+🍎[Clock: off]: "Clock name off"
+🍎[Ban]: "Add blacklist"
+🍎[Unban]: "Dalate blacklist"
+🍎[Banlist]: "Check blacklist"
 
--🌠™[ƧЄƬ]:ƇƠMMƛƝƊƧ ƧЄƬ. -
-🌟[Contact: on/off]: 
-🌟[Auto join: on/off]: 
-🌟[Cancel Invite: 1 on/off]:
-🌟[Auto share: on/off]:
-🌟[Auto leave: on/off]: 
-🌟[Comment: on/off]: 
-🌟[Auto add: on/off]: 
-🌟[Auto like: on/off]: 
+-🐧™[ƧЄƬ]:ƇƠMMƛƝƊƧ ƧЄƬ. -
+🍎[Contact: on/off]: 
+🍎[Auto join: on/off]: 
+🍎[Cancel Invite: 1 on/off]:
+🍎[Auto share: on/off]:
+🍎[Auto leave: on/off]: 
+🍎[Comment: on/off]: 
+🍎[Auto add: on/off]: 
+🍎[Auto like: on/off]: 
 	
--🀄™ƇƠMMƛƝƊƧ ƖƝ ƬHЄ ƓƦƠƲƤƧ. ~~~~
-❄️[Ban " @Tag]: 
-❄️[Unban " @Tag]: 
-❄️[Urlon]: "Open urL"
-❄️[Urloff]: "Closed urL"
-❄️[Url]: " Check urL room"
-❄️[Ginfo]: "~÷~ data room"
-❄️[Invite: "mid"]: 
-❄️[Say: "Text"]: "Kicker talk"
-❄️[Cancel]: "Cancel invite"
-❄️[Gn: "name"]: "Change name Group"
-❄️[NK: "Name"]: ~÷~
-❄️[Dead]: "Kick Blacklist"
+-🐧™ƇƠMMƛƝƊƧ ƖƝ ƬHЄ ƓƦƠƲƤƧ. ~~~~
+🍎[Ban " @Tag]: 
+🍎[Unban " @Tag]: 
+🍎[Urlon]: "Open urL"
+🍎[Urloff]: "Closed urL"
+🍎[Url]: " Check urL room"
+🍎[Ginfo]: "~÷~ data room"
+🍎[Invite: "mid"]: 
+🍎[Say: "Text"]: "Kicker talk"
+🍎[Cancel]: "Cancel invite"
+🍎[Gn: "name"]: "Change name Group"
+🍎[NK: "Name"]: ~÷~
+🍎[Dead]: "Kick Blacklist"
           
-	  ─•✵✟۞ ℓℓஆՁゆຸ۞✵•─ 
+	  
+	  ─•✵꧁☢☠ℓℓஆՁՃิ☠☡꧂✵•─ 
 	  🇹🇭 🇹🇭 🇹🇭 🇹🇭 🇹🇭 🇹🇭 🇹🇭 🇹🇭
-	http://line.me/ti/p/ShgslAPyYS 
-	
-	+ datetime.today().strftime('%H:%M:%S')
+	http://line.me/ti/p/j2nADgDkJf
 """
 helpMessage2 ="""-💕™ -
 
@@ -148,9 +147,9 @@ wait = {
     'leaveRoom':False,
     'timeline':False,
     'autoAdd':False,
-    'message':"Thanks add me  ─•✵✟۞ ℓℓஆՁゆຸ۞✵•─     🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭  http://line.me/ti/p/ShgslAPyYS   ",
+    'message':"    ─•✵꧁☢☠ℓℓஆՁՃิ☠☡꧂✵•─  🐧🐧🐧🐧🐧🐧🐧 รับติดตั้ง Selfbot  http://line.me/ti/p/j2nADgDkJf  ",
     "lang":"JP",
-    "comment":"Auto like   ─•✵✟۞ ℓℓஆՁゆຸ۞✵•─  🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭   http://line.me/ti/p/ShgslAPyYS   ",
+    "comment":"    ─•✵꧁☢☠ℓℓஆՁՃิ☠☡꧂✵•─  🐧🐧🐧🐧🐧🐧🐧 รับติดตั้ง Selfbot  http://line.me/ti/p/j2nADgDkJf ",
     "likeOn":False,
     "commentOn":False,
     "commentBlack":{},
@@ -1184,10 +1183,15 @@ def bot(op):
                   invsend = 0 
                   Ti = cl.reissueGroupTicket(msg.to)
                   ki.acceptGroupInvitationByTicket(msg.to,Ti)
+		  time.sleep(0.00)
                   kk.acceptGroupInvitationByTicket(msg.to,Ti)
+		  time.sleep(0.00)
                   ks.acceptGroupInvitationByTicket(msg.to,Ti)
+		  time.sleep(0.00)
                   kc.acceptGroupInvitationByTicket(msg.to,Ti)
+		  time.sleep(0.00)
                   ka.acceptGroupInvitationByTicket(msg.to,Ti)
+		  time.sleep(0.00)
                   G = cl.getGroup(msg.to)
                   G.preventJoinByTicket = True
                   cl.updateGroup(G)
@@ -1251,6 +1255,7 @@ def bot(op):
                   G.preventJoinByTicket = True
                   ks.updateGroup(G)
                   Ticket = ka.reissueGroupTicket(msg.to)
+		  
 
             elif msg.text in ["B."]:
                 if msg.toType == 2:
@@ -1291,15 +1296,17 @@ def bot(op):
                             try:
                                 klist=[ki,kk,kc,ks,ka]
                                 kicker=random.choice(klist)
+				time.sleep(0.00)
                                 kicker.kickoutFromGroup(msg.to,[target])
+				time.sleep(0.00)
                                 print (msg.to,[g.mid])
                             except:
-                                ki.sendText(msg.to,"H")
-                                kk.sendText(msg.to,"ƛ")
-                                kc.sendText(msg.to,"L")
-                                ks.sendText(msg.to,"Ơ")
-                                kc.sendText(msg.to,"ƧƠƦƦƳ ƳƠƲƦ ƓƦƠƲƤ ƜЄ ƬƛƘЄ ƠƔЄƦ .. !!")
-                                ka.sendText(msg.to,"ƜЄ ƛƦЄ ƊЄƧƬƦƠƳЄƦƧ.. 🚷")
+                                ki.sendText(msg.to,"1")
+                                kk.sendText(msg.to,"2")
+                                kc.sendText(msg.to,"3")
+                                ks.sendText(msg.to,"4")
+                                kc.sendText(msg.to,"5")
+                                ka.sendText(msg.to,"เอ้า วิ่ง 🏃")
 #-----------------------------------------------------------                          
             elif "Kick" in msg.text:
                 if msg.contentMetadata is not None:
@@ -1337,9 +1344,11 @@ def bot(op):
 						for target in targets:
 							try:
 								if msg.from_ not in target:
-									ki.kickoutFromGroup(msg.to, [target])							   
+									ki.kickoutFromGroup(msg.to, [target])
+									time.sleep(0.00)
 							except:
-									ki.kickoutFromGroup(msg.to, [target])							   
+									ki.kickoutFromGroup(msg.to, [target])
+									time.sleep(0.00)
 									pass
             elif "K2 kick" in msg.text:
 				OWN = "u33fab009d719040149bce490cfe33929","u2c7f708769a2eb35d9ae9f73cd366e0b"
@@ -1363,9 +1372,10 @@ def bot(op):
 						for target in targets:
 							try:
 								if msg.from_ not in target:
-									kk.kickoutFromGroup(msg.to, [target])							   
-							except:
-									kk.kickoutFromGroup(msg.to, [target])							   
+									kk.kickoutFromGroup(msg.to, [target])
+									time.sleep(0.00)
+							except:							
+									kk.kickoutFromGroup(msg.to, [target])
 									pass
 
             elif "K3 kick" in msg.text:
@@ -1390,7 +1400,8 @@ def bot(op):
 						for target in targets:
 							try:
 								if msg.from_ not in target:
-									ks.kickoutFromGroup(msg.to, [target])							   
+									ks.kickoutFromGroup(msg.to, [target])	
+									time.sleep(0.00)
 							except:
 									ks.kickoutFromGroup(msg.to, [target])							   
 									pass									
@@ -1417,7 +1428,8 @@ def bot(op):
 						for target in targets:
 							try:
 								if msg.from_ not in target:
-									kc.kickoutFromGroup(msg.to, [target])							   
+									kc.kickoutFromGroup(msg.to, [target])	
+									time.sleep(0.00)
 							except:
 									kc.kickoutFromGroup(msg.to, [target])							   
 									pass	
@@ -1803,8 +1815,9 @@ def bot(op):
                         return
                     for jj in matched_list:
                         try:
-                            klist=[cl,ki,kk,ks,kc,ka]
+                            klist=[cl,ki,kk,ks,kc,ka]			    
                             kicker=random.choice(klist)
+			    time.sleep(0.00)
                             kicker.kickoutFromGroup(msg.to,[jj])
                             print (msg.to,[jj])
                         except:
@@ -1825,7 +1838,7 @@ def bot(op):
                         group = cl.getGroup(msg.to)
                         for var in range(0,num):
                             name = "".join([random.choice(source_str) for x in xrange(10)])
-                            time.sleep(0.01)
+                            time.sleep(0.00)
                             group.name = name
                             cl.updateGroup(group)
                     except:
@@ -1880,7 +1893,222 @@ def bot(op):
                 print "[Command]Speed palsu executed"
                 		             
 #======================================== 
-        if op.type == 19:
+            elif "#ขาย" in msg.text:
+                cl.sendText(msg.to,"""[Selfbot Susu]\n\n		
+🇹🇭 Selfbot By.Susu bot 🇹🇭
+
+🇹🇭  รับทำ Self ℬ❍Ŧ🇹🇭 
+
+🇹🇭🏁  Self  Server premium👉 ฝีมือคนไทย
+↜«↜«↜✾↝»↝»↝
+🇹🇭 ■1self  1 kicker =  450  ฿
+🇹🇭 ■1self  2 kicker =  650  ฿
+🇹🇭 ■1self  3 kicker =  850  ฿
+◄◄◄◄◄◄◄◄◄◄◄◄◄◄◄
+🇹🇭 ■เพิ่ม kicker ตัวล่ะ 200 ฿ 🖒
+🇹🇭 ■self กันรันอย่างเดียว 300 $ สามารถลบรันได้
+🇹🇭 ■กันการเชิญเข้ากลุ่มได้ 100%✔
+🇹🇭 ■ราคาเป็นกันเอง คุยง่าย
+🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
+⛥▩เซลบอททีม1 self 18 kicker = 2000 
+🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
+•••••••••••••••••••••••••••••
+📣  รับลงบอทSiri:v10 📣
+⛥  ลงสดที่ห้อง ⛥
+⛥  แบบห้องเปล่าพร้อมบอท  ⛥
+รับลงบอทเสริมSiri:v10 เพิ่ม ราคาชุดละ80บาท
+•••••••••••••••••••••••••••••
+⚠พิเศษ ขายตั๋วเชิญSiri:v10⚠
+☛1-5  = ใบล่ะ100
+☛6-10 =ใบล่ะ 90
+☛11-20=ใบละ 80
+🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
+เรารับทำบอททุกประเภท มีครบทุกฟังชั่น
+ (บอทบินก็มีนะคะ)  👈👈👈 
+👨 ทักมาสอบถามได้เลยคะ 👩
+สนใจทักแชทเลยค่ะ ☎ 062-5315038
+  ⬇    ⬇    ⬇    ⬇    ⬇    ⬇     ⬇
+http://line.me/ti/p/j2nADgDkJf ► แมวชิ 
+http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
+http://line.me/ti/p/ShgslAPyYS  ► ป๋านุ
+
+ไม่ซื้อ อย่า แอดมา เข้าใจนะ
+
+🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
+""")
+
+#==================================================
+             elif msg.text in ["*ทีม"]:
+                  X = cl.getGroup(msg.to)                    
+                  X.preventJoinByTicket = False
+                  cl.updateGroup(X)
+                  invsend = 0 
+                  Ti = cl.reissueGroupTicket(msg.to)
+                  ki.acceptGroupInvitationByTicket(msg.to,Ti)
+                  time.sleep(0.00)
+                  kk.acceptGroupInvitationByTicket(msg.to,Ti)
+                  time.sleep(0.00)
+                  ks.acceptGroupInvitationByTicket(msg.to,Ti)
+                  time.sleep(0.00)
+                  kc.acceptGroupInvitationByTicket(msg.to,Ti)
+                  time.sleep(0.00)
+                  ka.acceptGroupInvitationByTicket(msg.to,Ti)
+                  time.sleep(0.00)                               
+                  G = ka.getGroup(msg.to)
+                  G.preventJoinByTicket = True
+                  ka.updateGroup(G)
+                  print "Algojo_Ready,!"
+                  Ticket = ka.reissueGroupTicket(msg.to)
+		  	  		  	
+            elif "Hack3 @" in msg.text:            
+                print "[Command]dp executing"
+                _name = msg.text.replace("Hack3 @","")
+                _nametarget = _name.rstrip('  ')
+                gs = cl.getGroup(msg.to)
+                targets = []
+                for g in gs.members:
+                    if _nametarget == g.displayName:
+                        targets.append(g.mid)
+                if targets == []:
+                    cl.sendText(msg.to,"Contact not found")
+                else:
+                    for target in targets:
+                        try:
+                            contact = cl.getContact(target)
+                            cu = cl.channel.getCover(target)
+                            path = str(cu)
+                            cl.sendImageWithURL(msg.to, path)
+                        except:
+                            pass
+                print "[Command]dp executed"
+            elif "Hack2mid:" in msg.text:
+                umid = msg.text.replace("Hack2mid:","")
+                contact = cl.getContact(umid)
+                try:
+                    image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
+                except:
+                    image = "https://www.1and1.co.uk/digitalguide/fileadmin/DigitalGuide/Teaser/not-found-t.jpg"
+                try:
+                    cl.sendImageWithURL(msg.to,image)
+                except Exception as error:
+                    cl.sendText(msg.to,(error))
+                    pass
+            elif "Hack2 " in msg.text:
+                if msg.toType == 2:
+                    msg.contentType = 0
+                    steal0 = msg.text.replace("Hack2 ","")
+                    steal1 = steal0.lstrip()
+                    steal2 = steal1.replace("@","")
+                    steal3 = steal2.rstrip()
+                    _name = steal3
+                    group = cl.getGroup(msg.to)
+                    targets = []
+                    for g in group.members:
+                        if _name == g.displayName:
+                            targets.append(g.mid)
+                    if targets == []:
+                        cl.sendText(msg.to,"Gak da orange")
+                    else:
+                        for target in targets:
+                            try:
+                                contact = cl.getContact(target)
+                                try:
+                                    image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
+                                except:
+                                    image = "https://www.1and1.co.uk/digitalguide/fileadmin/DigitalGuide/Teaser/not-found-t.jpg"
+                                try:
+                                    cl.sendImageWithURL(msg.to,image)
+                                except Exception as error:
+                                    cl.sendText(msg.to,(error))
+                                    pass
+                            except:
+                                cl.sendText(msg.to,"Error!")
+                                break
+                else:
+                    cl.sendText(msg.to,"Tidak bisa dilakukan di luar grup")
+            elif "Hack All" in msg.text:
+                if msg.toType == 2:
+                    cover = msg.text.replace("Hack All","")
+                    _nametarget = cover.rstrip('  ')
+                    gs = cl.getGroup(msg.to)
+                    targets = []
+                    for g in gs.members:
+                        if _nametarget == g.displayName:
+                            targets.append(g.mid)
+                    if targets == []:
+                        cl.sendText(msg.to,"Not found")
+                    else:
+                        for target in targets:
+                            try:
+                                h = cl.channel.getHome(target)
+                                objId = h["result"]["homeInfo"]["objectId"]
+                                cl.sendImageWithURL(msg.to,"http://dl.profile.line-cdn.net/myhome/c/download.nhn?userid=" + target + "&oid=" + objId)
+                            except Exception as error:
+                                print error
+                                cl.sendText(msg.to,"Upload image failed.")
+#===============================================
+#===============================================
+            elif msg.text in ["Allgift","All Gift"]:
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '12'}
+                msg.text = None
+                ki.sendMessage(msg)
+                kk.sendMessage(msg)
+                kc.sendMessage(msg)
+                ks.sendMessage(msg)
+                ka.sendMessage(msg)
+                ko.sendMessage(msg)
+                kj.sendMessage(msg)                
+
+            #VPS STUFF - VPS NEEDED TO RUN THIS COMMAND :)
+            elif msg.text in ["vps","kernel"]:
+                 if msg.from_ in admin:
+                     botKernel = subprocess.Popen(["uname","-svmo"], stdout=subprocess.PIPE).communicate()[0]
+                     cl.sendText(msg.to, botKernel)
+                     print "[Command]Kernel executed"
+#=================================================
+#=================================================
+            elif msg.text == "นับ":
+                    cl.sendText(msg.to, "!โปรดรอ..กรุณาพิมพ์ อ่าน")
+                    try:
+                        del wait2['readPoint'][msg.to]
+                        del wait2['readMember'][msg.to]
+                    except:
+                           pass
+                    now2 = datetime.now()
+                    wait2['readPoint'][msg.to] = msg.id
+                    wait2['readMember'][msg.to] = ""
+                    wait2['setTime'][msg.to] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                    wait2['ROM'][msg.to] = {}
+                    print wait2
+            elif msg.text == "อ่าน":
+                    if msg.to in wait2['readPoint']:
+                        if wait2["ROM"][msg.to].items() == []:
+                            chiya = ""
+                        else:
+                            chiya = ""
+                            for rom in wait2["ROM"][msg.to].items():
+                                print rom
+                                chiya += rom[1] + "\n"
+                        cl.sendText(msg.to, "╔═══════════════%s\n╠════════════════\n%s╠═══════════════\n║Readig point creation:\n║ [%s]\n╚════════════════"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                    else:
+                        cl.sendText(msg.to, "Ketik Lurking dulu dudul Baru bilang result Point.")
+						
+#========================================
+#=============================================
+            elif "Hack4" in msg.text:
+                key = eval(msg.contentMetadata["MENTION"])
+                key1 = key["MENTIONEES"][0]["M"]
+                contact = cl.getContact(key1)
+                cu = cl.channel.getCover(key1)
+                try:
+                    cl.sendText(msg.to,"[name]\n" + contact.displayName + "\n[mid]\n" + contact.mid + "\n[statusmessage]\n" + contact.statusMessage + "\n[profilePicture]\nhttp://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n[homePicture]\n" + str(cu))
+                except:
+                    cl.sendText(msg.to,"[name]\n" + contact.displayName + "\n[mid]\n" + contact.mid + "\n[statusmessage]\n" + contact.statusMessage + "\n[homePicture]\n" + str(cu))
+#=============================================
+        if op.type == 19:	
             try:
                 if op.param3 in mid:
                     if op.param2 in Amid:
