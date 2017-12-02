@@ -9,28 +9,16 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="
+cl.login(token="EnN1vSr5EUwjrEoPXEc0.3P8iWKJtN6LrHvgeVwLpya.vLhcJtlgz/zr7CLlMOTVJ0MQzo7v60XYSxPXvN5qT6E=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="
+ki.login(token="EnpHjgr1uiiK1ujj9FS7.ZQKpszwoSBpwV4L7zH2crW.Ke4WAsWRvPSlrtv8Fyhw1IqdNlrOfD8tRUVH6LhehQ0=")
 ki.loginResult()
 
-kk = LINETCR.LINE()
-kk.login(token=
-kk.loginResult()
-
-ks = LINETCR.LINE()
-ks.login(token=".
-ks.loginResult()
-
-kc = LINETCR.LINE()
-kc.login(token=".
-kc.loginResult()
-
-ka = LINETCR.LINE()
-ka.login(token="
-ka.loginResult()
+kk = ks = ki
+kc = ka = ki
+cl
 
 print "login success"
 reload(sys)
