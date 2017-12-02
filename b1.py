@@ -506,7 +506,7 @@ def bot(op):
                 midd = msg.text.replace("Invite:","")
                 cl.findAndAddContactsByMid(midd)
                 cl.inviteIntoGroup(msg.to,[midd])
-            elif "แอด" == msg.text:
+            elif "Me" == msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': mid}
                 cl.sendMessage(msg)
@@ -1252,7 +1252,7 @@ def bot(op):
                   Ticket = ka.reissueGroupTicket(msg.to)
 		  
 
-            elif msg.text in ["B."]:
+            elif msg.text in ["y."]:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
                 try:			
@@ -1264,7 +1264,7 @@ def bot(op):
                 except:
                      pass            
             #---------------FUNGSI RATAIN GRUP TANPA KICK SESAMA BOT/Admin/Bots----------#
-            elif "Destroy" in msg.text:
+            elif "*บิน" in msg.text:
               if msg.from_ in Bots:
                 if msg.toType == 2:
                     print "ok"
