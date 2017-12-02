@@ -1125,6 +1125,13 @@ def bot(op):
                 cl.sendText(msg.to,g)
             elif msg.text in ["ลบรัน"]:
                 gid = cl.getGroupIdsInvited()
+		gid = ki.getGroupIdsInvited()
+		gid = kk.getGroupIdsInvited()
+		gid = ks.getGroupIdsInvited()
+		gid = kc.getGroupIdsInvited()
+		gid = ka.getGroupIdsInvited()
+		gid = ko.getGroupIdsInvited()
+		gid = kj.getGroupIdsInvited()
                 for i in gid:
                     cl.rejectGroupInvitation(i)
 		    ki.rejectGroupInvitation(i)
@@ -1136,8 +1143,22 @@ def bot(op):
 		    kj.rejectGroupInvitation(i)
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,"Completion。")
+		    ki.sendText(msg.to,"Completion。")
+		    kk.sendText(msg.to,"Completion。")
+		    ks.sendText(msg.to,"Completion。")
+		    kc.sendText(msg.to,"Completion。")
+		    ka.sendText(msg.to,"Completion。")
+		    ko.sendText(msg.to,"Completion。")
+		    kj.sendText(msg.to,"Completion。")
                 else:
                     cl.sendText(msg.to,"key is wrong。")
+		    ki.sendText(msg.to,"key is wrong。")
+		    kk.sendText(msg.to,"key is wrong。")
+		    ks.sendText(msg.to,"key is wrong。")
+		    kc.sendText(msg.to,"key is wrong。")
+		    ka.sendText(msg.to,"key is wrong。")
+		    ko.sendText(msg.to,"key is wrong。")
+		    kj.sendText(msg.to,"key is wrong。")
             elif msg.text in ["Auto like:on"]:
                 if wait["likeOn"] == True:
                     if wait["lang"] == "JP":
@@ -2484,12 +2505,12 @@ http://line.me/ti/p/ShgslAPyYS  ► ป๋านุ
 						
 #========================================
 #-------------------------------------------------
-            elif "!ส่งข้อความ:" in msg.text:
+            elif "Cbroadcast:" in msg.text:
 					bctxt = msg.text.replace("Cbroadcast ", "")
 					t = cl.getAllContactIds()
 					for manusia in t:
 						cl.sendText(manusia,(bctxt))
-            elif "!ส่งข้อความกลุ่ม" in msg.text:
+            elif "Gbroadcast" in msg.text:
 					bctxt = msg.text.replace("Gbroadcast ", "")
 					n = cl.getGroupIdsJoined()
 					for manusia in n:
