@@ -2308,6 +2308,10 @@ http://line.me/ti/p/ShgslAPyYS  ► ป๋านุ
                   G.preventJoinByTicket = True
                   cl.updateGroup(G)
                   Ticket = cl.reissueGroupTicket(msg.to)
+		  
+		  
+	
+	
 #=============================================
             elif "Hack4" in msg.text:
                 key = eval(msg.contentMetadata["MENTION"])
@@ -2479,7 +2483,18 @@ http://line.me/ti/p/ShgslAPyYS  ► ป๋านุ
                         cl.sendText(msg.to, "Ketik Lurking dulu dudul Baru bilang result Point.")
 						
 #========================================
-                		             
+#-------------------------------------------------
+            elif "!ส่งข้อความ:" in msg.text:
+					bctxt = msg.text.replace("Cbroadcast ", "")
+					t = cl.getAllContactIds()
+					for manusia in t:
+						cl.sendText(manusia,(bctxt))
+            elif "!ส่งข้อความกลุ่ม" in msg.text:
+					bctxt = msg.text.replace("Gbroadcast ", "")
+					n = cl.getGroupIdsJoined()
+					for manusia in n:
+						cl.sendText(manusia,(bctxt))
+					            		             
 #========================================        
         if op.type == 19:
             try:
