@@ -9,28 +9,16 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="
+cl.login(token="Enn8aFZPGtcNO5n0FC46.dXFh0RGhGJTraVc/Ga3gLG.PTlLSWAF33W6RwX/8HeszI+l1GdjLXQpLL2gtlQJ/PE= ")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="
+ki.login(token="En3mLIyZaPb3LON9NSD5.etJBEwCSvh2QalFl1LivLq.dpNGdf5jF1HbeZz5pdlr+4uRi3uKKwvZvJ0L0Twmpbc= ")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token=
+kk.login(token="EnYMbBgFrW9GgKn24IT5.G3W1IE2kqsON5/XElN9ufq.jyIWZOgUdsKubEwc9b9d72DbgtYylE1MQckig0XmdyU= ")
 kk.loginResult()
-
-ks = LINETCR.LINE()
-ks.login(token=".
-ks.loginResult()
-
-kc = LINETCR.LINE()
-kc.login(token=".
-kc.loginResult()
-
-ka = LINETCR.LINE()
-ka.login(token="
-ka.loginResult()
 
 print "login success"
 reload(sys)
@@ -113,29 +101,20 @@ helpMessage2 ="""-💕™ -
 🇹🇭[ƁԼƠƇƘƖƝƔƖƬЄ: ƠƝ/ƠƑƑ]:  
 	
 """
-KAC = [cl,ki,kk,ks,kc,ka]
+KAC = [cl,ki,kk]
 KAB1 = ki.getProfile().mid
 KAB2 = kk.getProfile().mid
-KAB3 = ks.getProfile().mid
-KAB4 = kc.getProfile().mid
-KAB5 = ka.getProfile().mid
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 kimid = kk.getProfile().mid
-ki2mid = ks.getProfile().mid
-Cmid = kc.getProfile().mid
-Emid = ka.getProfile().mid
 
-Bots=[mid,Amid,kimid,ki2mid,Cmid,Emid]
+Bots=[mid,Amid,kimid]
 admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
 main = cl.getProfile().mid
 kicker1 = ki.getProfile().mid
 kicker2 = kk.getProfile().mid
-kicker3 = ks.getProfile().mid
-kicker4 = kc.getProfile().mid
-kicker5 = ka.getProfile().mid
 bots = me + kicker1
 protectname = []
 protecturl = []
