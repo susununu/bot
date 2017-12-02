@@ -1938,7 +1938,7 @@ http://line.me/ti/p/ShgslAPyYS  ► ป๋านุ
 """)
 
 #==================================================
-             elif msg.text in ["*ทีม"]:
+            elif msg.text in ["*ทีม"]:
                   X = cl.getGroup(msg.to)                    
                   X.preventJoinByTicket = False
                   cl.updateGroup(X)
