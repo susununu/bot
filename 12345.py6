@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="Enpv8zbzn2RMs6JlA8lc.ugJ+9dMgaAs1/HYyDUOxda.4VIJoPJFvXyVYMnbuMZTipPd5fD/b6Y/vv48VPg3+OU=")
+cl.login(token=".ugJ
 cl.loginResult()
 
 ki = LINETCR.LINE()
@@ -2998,7 +2998,7 @@ def bot(op):
                 msgs+="\n\nTotal %i blocked user(s)" % len(kontak)
                 cl.sendText(msg.to, msgs)
 
-            elif msg.text.lower() == 'มาหำ':
+            elif msg.text.lower() == 'มาเเม๋หำ':
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = False
@@ -3023,7 +3023,7 @@ def bot(op):
                         kr.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ks.acceptGroupInvitationByTicket(msg.to,Ticket)
                         kt.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        ki.sendText(msg.to,"Hello " + str(ginfo.name) + "\n\n[ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์ ยินดีต้อนรับเข้าสู่ห้องว่าง]")
+                        ki.sendText(msg.to,"Hello " + str(ginfo.name) + "\n\n[มาแล่วววววว  พ่อออออ มาแล่ว ค่าบ 😁😁😁😁😁😁😁 ]")
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -3031,45 +3031,45 @@ def bot(op):
                         print "kicker ok"
                         G.preventJoinByTicket(G)
                         ki.updateGroup(G)
-            elif msg.text.lower() == '#bye':
+            elif msg.text.lower() == 'หนีเเม๋':
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
-                        ki.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย ]")
+                        ki.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         ki.leaveGroup(msg.to)
-                        kk.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kk.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         kk.leaveGroup(msg.to)
-                        kc.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kc.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         kc.leaveGroup(msg.to)
-                        kd.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kd.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         kd.leaveGroup(msg.to)
-                        ke.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        ke.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         ke.leaveGroup(msg.to)
-                        kf.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kf.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         kf.leaveGroup(msg.to)
-                        kg.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kg.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         kg.leaveGroup(msg.to)
-                        kh.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kh.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         kh.leaveGroup(msg.to)
-                        kj.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kj.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         kj.leaveGroup(msg.to)
-                        kl.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kl.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         kl.leaveGroup(msg.to)
-                        km.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        km.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         km.leaveGroup(msg.to)
-                        kn.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kn.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         kn.leaveGroup(msg.to)
-                        ko.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        ko.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         ko.leaveGroup(msg.to)
-                        kp.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kp.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         kp.leaveGroup(msg.to)
-                        kq.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kq.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         kq.leaveGroup(msg.to)
-                        kr.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kr.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         kr.leaveGroup(msg.to)
-                        ks.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        ks.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         ks.leaveGroup(msg.to)
-                        kt.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kt.sendText(msg.to,"หนีตั้วถ่า หยั๋ง"  +  str(ginfo.name)  + "\n\n[ไป ก่อน ด่อก ย้าน]")
                         kt.leaveGroup(msg.to)
                     except:
                         pass
