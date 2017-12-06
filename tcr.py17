@@ -13,22 +13,22 @@ cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="..+=")
+ki.login(token="EniWLZyg7M2xn7ZWLEi4.Taq4zRpoy8MaIjFbl09Fba.ZvAgOFZEGGWB1pNf6KQuYdtWXhbz+ahXwvqVNIS38I4=")
 
 kk = LINETCR.LINE()
-kk.login(token=".+/m5kq.=")
+kk.login(token="En6JnQYmSbud2UhirOB9.m+QWcDCzbafjVosqZ/m5kq.V8ZxtADEcZrvKSmOLmtrBtAkRuirBa7E4FYQ5PvQ5WA=")
 
 ks = LINETCR.LINE()
-ks.login(token=".qfm/=")
+ks.login(token="EnorFuNfQuWsL7Oao0O2.95DDfpXOzsm0FioN2vCdmG.qfm/65MnINdAiJp1WlrE7znBn5L9csSSWTSXCnryENA=")
 
 kc = LINETCR.LINE()
-kc.login(token=".+/uJEa4=")
+kc.login(token="EnnKn17f1WU18KJ9Rp07.0PhcaDg6BmNNypOZPKzWPW.+GJZb3EHRlU1fyH3nsr7VuyimvVVFk2eaNB1D/uJEa4=")
 
 ka = LINETCR.LINE()
-ka.login(token=".2Ad+.+=")
+ka.login(token="Endc3mRumZVeSpnJelUf.2Ad+jSMK5L577woncnuh7W.A2a8Q176BBlcqx1B8CsNW9+5IGsDvR4S1ki7LdQ86ZA=")
 
 ko = LINETCR.LINE()
-ko.login(token="../=")
+ko.login(token="EnC38ZGeAcP4PLCWWx52.rm2ylLXzJpoyheGEx9PgmG.iFhJ0UeAvr8gIAbFmVhoLn2OVs/WWOm21nEGeJ25s3w=")
 
 kj = LINETCR.LINE()
 kj.login(token="EnZDUg5DvvayMMi8gJv6.yBVBTPsh6djJxYEgfejy1G.Ud0hVhzXJ9cheAUzFEqF7NLfvfyAoDHgXmrCVXztxDo=")
@@ -36,54 +36,54 @@ kj.login(token="EnZDUg5DvvayMMi8gJv6.yBVBTPsh6djJxYEgfejy1G.Ud0hVhzXJ9cheAUzFEqF
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage ="""🇹🇭〖ŋีಖଏדЮ✫নმ௮₷ণજัゆ۩〗🇹🇭
+helpMessage ="""🇹🇭۞〖ŋีಖଏדЮ✫নმ௮₷ণજัゆ۩〗۞🇹🇭
   
-🌥️[Id]: ~÷~
-🌧️[Mid]: ~÷~
-🌤️[All mid]:
-🌤️[Me]: ~÷~
-🌨️[K1/K2/K3/]: "Contact"
-⛅[K1/K2/K3 fuck:]: "Kick kicker"
-🌧️[Group Id]: "Id Me Group"
-⛈️[TL : "Text"]: "Auto status TL"
-⛈️[Clock :]: "Name Clock"
-⛈️[Up clock]: "Up date Clock"
-⛈️[Name : 'text']: "Name me"
-⛅[MIC]: "mid"]: "Contact share"
-⛅[Reject]: " invite"]: "Reject invite"
-⛅[Massage add: "text"]: ~÷~
-🌨️[Add confirmasi]: ~÷~
-🌧️[Comment set : "Text"]: ~÷~
-🌧️[Comment check]: ~÷~
-⛅[Clock: on]: "Clock name on"
-☁️[Clock: off]: "Clock name off"
-☁️[Ban]: "Add blacklist"
-☁️[Unban]: "Dalate blacklist"
-☁️[Banlist]: "Check blacklist"
+۞[Id]: ~÷~
+۞[Mid]: ~÷~
+۞[All mid]:
+۞[Me]: ~÷~
+۞[K1/K2/K3/]: "Contact"
+۞[K1/K2/K3 fuck:]: "Kick kicker"
+۞[Group Id]: "Id Me Group"
+۞[TL : "Text"]: "Auto status TL"
+۞[Clock :]: "Name Clock"
+۞[Up clock]: "Up date Clock"
+۞[Name : 'text']: "Name me"
+۞[MIC]: "mid"]: "Contact share"
+۞[Reject]: " invite"]: "Reject invite"
+۞[Massage add: "text"]: ~÷~
+۞[Add confirmasi]: ~÷~
+۞[Comment set : "Text"]: ~÷~
+۞[Comment check]: ~÷~
+۞[Clock: on]: "Clock name on"
+۞[Clock: off]: "Clock name off"
+۞[Ban]: "Add blacklist"
+۞[Unban]: "Dalate blacklist"
+۞[Banlist]: "Check blacklist"
 
--🌠™[ƧЄƬ]:ƇƠMMƛƝƊƧ ƧЄƬ. -
-🌟[Contact: on/off]: 
-🌟[Auto join: on/off]: 
-🌟[Cancel Invite: 1 on/off]:
-🌟[Auto share: on/off]:
-🌟[Auto leave: on/off]: 
-🌟[Comment: on/off]: 
-🌟[Auto add: on/off]: 
-🌟[Auto like: on/off]: 
+-🐧™[ƧЄƬ]:ƇƠMMƛƝƊƧ ƧЄƬ. -
+۞[Contact: on/off]: 
+۞[Auto join: on/off]: 
+۞[Cancel Invite: 1 on/off]:
+۞[Auto share: on/off]:
+۞[Auto leave: on/off]: 
+۞[Comment: on/off]: 
+۞[Auto add: on/off]: 
+۞[Auto like: on/off]: 
 	
--🀄™ƇƠMMƛƝƊƧ ƖƝ ƬHЄ ƓƦƠƲƤƧ. ~~~~
-❄️[Ban " @Tag]: 
-❄️[Unban " @Tag]: 
-❄️[Urlon]: "Open urL"
-❄️[Urloff]: "Closed urL"
-❄️[Url]: " Check urL room"
-❄️[Ginfo]: "~÷~ data room"
-❄️[Invite: "mid"]: 
-❄️[Say: "Text"]: "Kicker talk"
-❄️[Cancel]: "Cancel invite"
-❄️[Gn: "name"]: "Change name Group"
-❄️[NK: "Name"]: ~÷~
-❄️[Dead]: "Kick Blacklist"
+-🐧™ƇƠMMƛƝƊƧ ƖƝ ƬHЄ ƓƦƠƲƤƧ. ~~~~
+۞[Ban " @Tag]: 
+۞[Unban " @Tag]: 
+۞[Urlon]: "Open urL"
+۞[Urloff]: "Closed urL"
+۞[Url]: " Check urL room"
+۞[Ginfo]: "~÷~ data room"
+۞[Invite: "mid"]: 
+۞[Say: "Text"]: "Kicker talk"
+۞[Cancel]: "Cancel invite"
+۞[Gn: "name"]: "Change name Group"
+۞[NK: "Name"]: ~÷~
+۞[Dead]: "Kick Blacklist"
           
 	  ─•✵✟۞ ℓℓஆՁゆຸ۞✵•─ 
 	  🇹🇭 🇹🇭 🇹🇭 🇹🇭 🇹🇭 🇹🇭 🇹🇭 🇹🇭
@@ -91,10 +91,10 @@ helpMessage ="""🇹🇭〖ŋีಖଏדЮ✫নმ௮₷ণજัゆ۩〗🇹�
 """
 helpMessage2 ="""-💕™ -
 
-🇹🇭[ƤƦƠƬЄƇƬ: ƠƝ/ƠƑƑ]: 
-🇹🇭[ƁԼƠƇƘ ƲƦԼ: ƠƝ/ƠƑƑ]: 
-🇹🇭[ƝƛMЄԼƠƇƘ: ƠƝ/ƠƑƑ]: 
-🇹🇭[ƁԼƠƇƘƖƝƔƖƬЄ: ƠƝ/ƠƑƑ]:  
+🐧[ƤƦƠƬЄƇƬ: ƠƝ/ƠƑƑ]: 
+🐧[ƁԼƠƇƘ ƲƦԼ: ƠƝ/ƠƑƑ]: 
+🐧[ƝƛMЄԼƠƇƘ: ƠƝ/ƠƑƑ]: 
+🐧[ƁԼƠƇƘƖƝƔƖƬЄ: ƠƝ/ƠƑƑ]:  
 	
 """
 KAC = [cl,ki,kk,ks,kc,ka,ko,kj]
