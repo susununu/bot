@@ -8,8 +8,8 @@ import time,random,sys,json,codecs,threading,glob,sys
 import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
-cl = LINETCR.LINE()
-cl.login(qr=True)
+cl = LINETCR.LINE() 
+cl.login(token="EndyKraFv2AXT0IcEGm0.n+YqvWdJ4a/6eo+5C24jKa.16fMhBNEDcLC7tWAKPqskoJYbyl9xiWofakv4N/hZYw=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
